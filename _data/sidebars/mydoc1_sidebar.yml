@@ -1,0 +1,50 @@
+entries:
+- title: sidebar
+  product: Aspen Intro User Manual
+  version:
+  folders:
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+      - title: Introduction
+        url: /index.html
+        output: web, pdf
+        type: homepage
+
+      - title: First Launching Aspen
+        url: /mydoc1_first_launching_aspen.html
+        output: web, pdf
+
+      - title: Release Notes
+        url: /mydoc1_release_notes.html
+        output: web, pdf
+
+      - title: About Author
+        url: /mydoc1_about_author.html
+        output: web, pdf
+
+  - title: Model Analysis Tools
+    output: web, pdf
+    folderitems:
+      
+      - title: Model Analysis Tools Intro
+        url: mydoc1_model_analysis_tools.html
+        output: web, pdf
+      
+      - title: Calculator
+        url: mydoc1_calculator.html
+        output: web, pdf
+
+      - title: Sensitivity
+        url: mydoc1_sensitivity.html
+        output: web, pdf
+      
+      - title: Design Spec
+        url: mydoc1_designspec.html
+        output: web, pdf
+
+    
+
+

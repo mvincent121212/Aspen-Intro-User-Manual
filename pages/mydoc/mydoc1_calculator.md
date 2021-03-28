@@ -67,6 +67,6 @@ To find your results, click on **Flowsheeting Options** &#8594; **Calculator** &
 </p>
 
 ## Next Steps
-*  [Sensitivity](mydoc1_sensitivity)
-*  [Design Spec](mydoc1_designspec)
+*  [Sensitivity](/mydoc/mydoc1_sensitivity)
+*  [Design Spec](/mydoc/mydoc1_designspec)
 

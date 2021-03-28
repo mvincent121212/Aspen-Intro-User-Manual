@@ -7,7 +7,7 @@ sidebar: mydoc1_sidebar
 summary: You can use Aspen's calculator to find values for your simulation that Aspen does not automatically calculate.
 ---
 
-This section uses the example setup given in the [Model Analysis Tools Intro](/mydoc1_model_analysis_tools){:target="_blank"}.
+This section uses the example setup given in the [Model Analysis Tools Intro](mydoc1_model_analysis_tools){:target="_blank"}.
 
 Suppose we want to use our simulation results to find the relative volatility of our column. Aspen does not automatically calculate the relative volatility, but we can luckily calculate it ourselves using the Calculator block.
 
@@ -63,10 +63,10 @@ Your required input is now complete. Hit **Run** in the top left.
 To find your results, click on **Flowsheeting Options** &#8594; **Calculator** &#8594; **RV** &#8594; **Results**. Then click on the **Define Variable** tab. Your results should display as a table where the "Value read" column shows what values Aspen read from your input variables and the "Value written" column shows what was calculated for your export variable(s).
 
 <p align="center">
-    <img src="images/calculator_results.png">
+    <img src="/images/calculator_results.png">
 </p>
 
 ## Next Steps
-*  [Sensitivity](mydoc1_sensitivity)
-*  [Design Spec](mydoc1_designspec)
+*  [Sensitivity](./mydoc1_sensitivity)
+*  [Design Spec](./mydoc1_designspec)
 

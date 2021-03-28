@@ -23,7 +23,7 @@ The **Define** tab asks what variable you want to find, or optimize, in your sim
 Click "New" and then for variable name enter "EPURITY" (the name can be whatever you want). To define EPURITY as the purity of ethanol in the overhead, select Streams under "Category" and Mole-Frac, OVRHD (or the name of your overhead stream), and ETHANOL under "Reference".
 
 <p align="center">
-    <img src="images/designspec_define.png">
+    <img src="/images/designspec_define.png">
 </p>
 
 Your input for this tab should be complete. Next, click on **Spec** at the top.
@@ -37,7 +37,7 @@ The "target" value is what value you want your spec to be. Enter 0.4 for this va
 The "tolerance" value is how far away the simulation is allowed to be from the target value. For example, if you entered 0.1 for the tolerance, you are allowing the simulation to return a final value as far away as 0.39 or 0.41 instead of 0.4. It might be useful to input a large tolerance if it will be difficult for the simulation to obtain the target. However, for this example we can get the spec pretty close to the target. Enter 0.0001 for the tolerance.
 
 <p align="center">
-    <img src="images/designspec_spec.png">
+    <img src="/images/designspec_spec.png">
 </p>
 
 The required input should be complete. Next, click on the **Vary** tab.
@@ -47,7 +47,7 @@ The required input should be complete. Next, click on the **Vary** tab.
 The **Vary** tab tells Aspen what variable it should vary to find the target value in **Spec**. We want to vary the vapor fraction. In "Manipulated variable", find VFRAC under Block-Var and your flash block name. For the "Manipulated variable limits", enter a lower of 0.15 and an upper of 0.5.
 
 <p align="center">
-    <img src="images/designspec_vary.png">
+    <img src="/images/designspec_vary.png">
 </p>
 
 All of the required input for the design spec should now be complete! Hit **Run**.
@@ -57,7 +57,7 @@ All of the required input for the design spec should now be complete! Hit **Run*
 Find your results under **Flowsheeting Options** &#8594; **Design Specs** &#8594; **DS-1** &#8594; **Results**. The "Initial value" column tells you what the variables were before the design spec was used. The "Final value" is what the design spec converged to.
 
 <p align="center">
-    <img src="images/designspec_results.png">
+    <img src="/images/designspec_results.png">
 </p>
 {% include note.html content="Notice that the final value for your purity is within the bounds of your tolerance." %}
 

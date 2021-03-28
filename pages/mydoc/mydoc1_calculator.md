@@ -20,7 +20,7 @@ The resulting window that pops up is the new "RV" Calculator instance that we ha
 The first tab that appears is **Define**. In this tab, we need to define every variable that we need to calculate the relative volatility. The equation for relative volatility for two components is:
 
 <p align="center">
-    <img src="/images/calculator_rv.png">
+    <img src="images/calculator_rv.png">
 </p>
 
 In this case, `yi` and `xi` are the concentrations of ethanol in the vapor phase and liquid phase, respectfully. Similarly, `yj` and `xj` are the concentrations of water in the vapor and liquid phases. `yi/xi` can be rewritten as `Ki` and `yj/xj` can be rewritten as `Kj`. If you need more information on what relative volatility is, [refer to this website](https://www.separationprocesses.com/Distillation/DT_Chp01-3.htm){:target="_blank"}. However, what is more important is noticing that to calculate our relative volatility, we need to ask for variables `yi, xi, yj, and xj` from Aspen! Let's do this in the define tab.
@@ -30,7 +30,7 @@ Click "New" and when asked for a variable name enter "YE". This will be our y va
 Your define tab should look like this:
 
 <p align="center">
-    <img src="/images/calculator_ye.png">
+    <img src="images/calculator_ye.png">
 </p>
 
 Now we need to define three other variables named XE, YW, and XW. Repeat the same process for three more variables, asking for:
@@ -41,7 +41,7 @@ Now we need to define three other variables named XE, YW, and XW. Repeat the sam
 When you are done, scroll through your variables and make sure you have all four. We now need to define one variable that will save our value that we calculate for the relative volatility. Click "New" once more and enter "RV" for the variable name. Under "Category", select Model Utility. Under "Reference", select Parameter for Type and enter 1 for Parameter no. (every parameter that we specify must have its specific parameter number; since this is the first parameter we define, we give it the number 1). Finally in "Information Flow" select Export variable.
 
 <p align="center">
-    <img src="/images/calculator_rv_var.png">
+    <img src="images/calculator_rv_var.png">
 </p>
 
 Our Define tab is complete! Next, click on the **Calculate** tab.
@@ -53,7 +53,7 @@ The **Calculate** tab asks that you enter the code that will calculate your equa
 For your Fortran statement, enter your cursor on the far left of the window and hit the spacebar seven times (this was how I was taught how to do this, unfortunately). To check, make sure your cursor is on "Col: 7" which can be seen at the bottom of the window. Then enter the relative volatility equation:
 
 <p align="center">
-    <img src="/images/calculator_fortran.png">
+    <img src="images/calculator_fortran.png">
 </p>
 
 Your required input is now complete. Hit **Run** in the top left.
@@ -63,10 +63,10 @@ Your required input is now complete. Hit **Run** in the top left.
 To find your results, click on **Flowsheeting Options** &#8594; **Calculator** &#8594; **RV** &#8594; **Results**. Then click on the **Define Variable** tab. Your results should display as a table where the "Value read" column shows what values Aspen read from your input variables and the "Value written" column shows what was calculated for your export variable(s).
 
 <p align="center">
-    <img src="/images/calculator_results.png">
+    <img src="images/calculator_results.png">
 </p>
 
 ## Next Steps
-*  [Sensitivity](/mydoc/mydoc1_sensitivity)
-*  [Design Spec](/mydoc/mydoc1_designspec)
+*  [Sensitivity](mydoc1_sensitivity)
+*  [Design Spec](mydoc1_designspec)
 

@@ -7,7 +7,7 @@ sidebar: mydoc1_sidebar
 summary: You can use Aspen's sensitivity analysis to see how a certain operating condition in your simulation affects another condition. A sensitivity analysis gives you a table of results.
 ---
 
-This section uses the example setup given in the [Model Analysis Tools Intro](/mydoc1_model_analysis_tools){:target="_blank"}.
+This section uses the example setup given in the [Model Analysis Tools Intro](mydoc1_model_analysis_tools){:target="_blank"}.
 
 Suppose that at your chemical plant you are assigned with finding how changing the pressure of your distillation column affects the relative volatility of your product. Aspen has its sensitivity analysis tool to accomplish just this. You tell Aspen to vary the pressure of the column and tell you what the relative volatility is at a bunch of different pressures. Then Aspen returns to you a table of pressures and the relative volatility at each pressure. Let's try doing this in this section.
 
@@ -21,7 +21,7 @@ For "Manipulated variable limits", we are telling Aspen what ranges you want to 
 At this point, your tab should look like this:
 
 <p align="center">
-    <img src="../images/sensitivity_vary.png">
+    <img src="images/sensitivity_vary.png">
 </p>
 
 Your input should be complete. Next, click on the **Define** tab.
@@ -54,4 +54,4 @@ To find your results, go to **Model Analysis Tools** &#8594; **Sensitivity** &#8
 The last two columns show your results. The "Row/Case" column enumerates every one of your cases. The "Status" column tells you whether the simulation ran successfully at those conditions. Sometimes, your simulation might shut down, dry up, or fail at particular operating conditions, and Aspen will tell you if those conditions work or not for your column.
 
 ## Next Steps
-*  [Design Spec](/mydoc1_designspec)
+*  [Design Spec](mydoc1_designspec)
